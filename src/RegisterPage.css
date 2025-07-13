@@ -1,0 +1,81 @@
+/* Page background */
+body, .register-container {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f8bbd0 0%, #ffffff 100%);
+  color: #333;
+}
+
+/* Center the card */
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+/* Card styling */
+.register-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2.5rem;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Title */
+.register-card h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  color: #222;
+  font-size: 1.75rem;
+}
+
+/* Inputs */
+.register-card input,
+.register-card select {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.25rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.register-card input:focus,
+.register-card select:focus {
+  border-color: #f50057;
+  box-shadow: 0 0 0 2px rgba(245, 0, 87, 0.2);
+  outline: none;
+}
+
+/* Labels */
+.register-card label {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #444;
+}
+
+/* Submit button */
+.register-card button {
+  width: 100%;
+  background: #C60055; /* AAA contrast */
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  padding: 0.9rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.register-card button:hover {
+  background: #7B003E; /* darker on hover */
+}

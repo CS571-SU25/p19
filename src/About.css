@@ -1,0 +1,50 @@
+/* Mission Page Styling */
+.mission-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  padding: 2rem;
+  background: linear-gradient(to bottom, #f8bbd0, #ffffff);
+}
+
+.mission-card {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.mission-title {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #c2185b;
+  margin-bottom: 1.5rem;
+}
+
+.mission-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.mission-back-link {
+  display: inline-block;
+  background: #f50057;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.mission-back-link:hover {
+  background: #c2185b;
+  transform: translateY(-2px);
+}
