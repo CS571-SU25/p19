@@ -1,0 +1,49 @@
+.event-card-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
+
+.event-card {
+  border: none;
+  border-radius: 1rem;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  background: #FFFFFF;
+  padding: 1.5rem;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+}
+
+.event-details-header {
+  background: #7B003E;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.event-card p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  color: #222222;
+}
+
+.register-button {
+  margin-top: 1rem;
+  background: #C60055;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  color: #FFFFFF;
+  transition: background 0.3s ease;
+}
+
+.register-button:hover {
+  background: #7B003E;
+}

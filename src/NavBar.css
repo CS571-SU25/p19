@@ -1,0 +1,14 @@
+.custom-navbar {
+  background-color: #7B003E;
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.custom-navbar .nav-link:hover,
+.custom-navbar .nav-link:focus {
+  color: #FCE8EF;
+}
