@@ -9,6 +9,7 @@ import RegisterPage from "./RegisterPage";
 import AboutPage from "./AboutPage";
 import MissionPage from "./MissionPage";
 import DonationForm from './DonationForm'
+import ShareStory from "./ShareStory";
 function App() {
   return (
     <HashRouter>
@@ -18,7 +19,7 @@ function App() {
   <Route path="/about" element={<AboutPage />} />
   <Route path="/mission" element={<MissionPage />} />
   <Route path="/donate" element={<DonationForm />} />
-
+  <Route path="/share-story" element={<ShareStory />} />
 </Routes>
     </HashRouter>
   );

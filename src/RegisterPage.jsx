@@ -47,6 +47,7 @@ const RegisterPage = () => {
           </label>
 
           <button type="submit">Submit Registration</button>
+          
         </form>
       </div>
     </main>

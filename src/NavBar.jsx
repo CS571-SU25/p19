@@ -14,6 +14,8 @@ const NavBar = () => (
           <Nav.Link as={Link} to="/register">Register</Nav.Link>
           <Nav.Link as={Link} to="/about">About Us</Nav.Link>
           <Nav.Link as={Link} to="/mission">Our Mission</Nav.Link>
+          <Nav.Link as={Link} to="/donate">Donate</Nav.Link>
+          <Nav.Link as={Link} to="/share-story">Share Your Story</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

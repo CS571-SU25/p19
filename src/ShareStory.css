@@ -1,0 +1,145 @@
+/* Page background & font */
+body,
+.share-container {
+  font-family: 'Poppins', 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #f8bbd0 0%, #ffffff 100%);
+  color: #333;
+}
+
+/* Container */
+.share-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 1rem;
+}
+
+/* Back to home button */
+.back-button {
+  align-self: flex-start;
+  margin-bottom: 1rem;
+  background: #C60055;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.back-button:hover {
+  background: #7B003E;
+}
+
+/* Form Card */
+.share-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
+}
+
+/* Title */
+.share-card h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  color: #222;
+  font-size: 1.75rem;
+}
+
+/* Inputs and textarea */
+.share-card input,
+.share-card textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  resize: vertical;
+}
+
+.share-card input:focus,
+.share-card textarea:focus {
+  border-color: #f50057;
+  box-shadow: 0 0 0 2px rgba(245, 0, 87, 0.2);
+  outline: none;
+}
+
+/* Submit button */
+.share-card button {
+  width: 100%;
+  background: #C60055;
+  color: #FFFFFF;
+  font-weight: 600;
+  border: none;
+  padding: 0.9rem 1.2rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.share-card button:hover {
+  background: #7B003E;
+}
+
+/* Stories Section */
+.stories-section {
+  max-width: 700px;
+  width: 100%;
+}
+
+.stories-section h3 {
+  text-align: center;
+  color: #7B003E;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.story-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  position: relative;
+}
+
+.story-card strong {
+  color: #7B003E;
+}
+
+.story-card p {
+  margin-top: 0.5rem;
+  line-height: 1.4;
+  color: #333;
+}
+
+/* Delete button */
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff4d4d;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  transition: background 0.3s;
+}
+
+.delete-button:hover {
+  background-color: #d93636;
+}
