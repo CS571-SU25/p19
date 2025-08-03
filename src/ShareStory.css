@@ -16,22 +16,23 @@ body,
   padding: 4rem 1rem;
 }
 
-/* Back to home button */
-.back-button {
-  align-self: flex-start;
-  margin-bottom: 1rem;
-  background: #C60055;
-  color: #fff;
-  padding: 0.5rem 1rem;
-  border: none;
-  border-radius: 6px;
-  font-size: 0.95rem;
+/* Back link fixed in top-left corner */
+.back-link {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  font-size: 1rem;
+  color: #7B003E;
   cursor: pointer;
-  transition: background 0.3s;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+  z-index: 1000;
 }
 
-.back-button:hover {
-  background: #7B003E;
+.back-link:hover {
+  color: #C60055;
+  text-decoration: underline;
 }
 
 /* Form Card */

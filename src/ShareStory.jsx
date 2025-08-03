@@ -38,9 +38,10 @@ export default function ShareStory() {
   return (
     <div className="share-container">
       {/* Back to Home Button */}
-      <button className="back-button" onClick={() => navigate("/")}>
-        ← Back to Home
-      </button>
+      <div className="back-link" onClick={() => navigate("/")}>
+  ← Back to Home
+</div>
+
 
       <div className="share-card">
         <h2>Share Your Story</h2>

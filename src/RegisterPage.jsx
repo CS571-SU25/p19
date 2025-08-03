@@ -1,9 +1,17 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import "./RegisterPage.css";
 
 const RegisterPage = () => {
+  const navigate = useNavigate();
+
   return (
     <main className="register-container">
+      {/* Back to Home link outside the form */}
+      <div className="back-link" onClick={() => navigate("/")}>
+        ← Back to Home
+      </div>
+
       <div className="register-card">
         <h2>Register for the Run</h2>
         <form>
@@ -47,7 +55,6 @@ const RegisterPage = () => {
           </label>
 
           <button type="submit">Submit Registration</button>
-          
         </form>
       </div>
     </main>
